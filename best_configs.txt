@@ -1,0 +1,1047 @@
+{
+	
+	'CNN_Al' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'learning_rate': 0.001,
+	    'optimizer': 'adam',
+	    'activation': 'relu'
+	},	
+	'CNN_Cu' : {
+	    'epochs': 50,
+	    'batch_size': 32,
+	    'learning_rate': 0.0005,
+	    'optimizer': 'rmsprop',
+	    'activation': 'selu'
+	},	
+	'CNN_Corn' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'learning_rate': 0.001,
+	    'optimizer': 'nadam',
+	    'activation': 'selu'
+	},	
+	'CNN_EURCHF' : {
+	    'epochs': 200,
+	    'batch_size': 64,
+	    'learning_rate': 0.001,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'CNN_EURUSD' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'learning_rate': 0.001,
+	    'optimizer': 'adam',
+	    'activation': 'relu'
+	},	
+	'CNN_GBPUSD' : {
+	    'epochs': 50,
+	    'batch_size': 32,
+	    'learning_rate': 0.0005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'CNN_Gilt10y' : {
+	    'epochs': 200,
+	    'batch_size': 64,
+	    'learning_rate': 0.001,
+	    'optimizer': 'nadam',
+	    'activation': 'selu'
+	},	
+	'CNN_Bund10y' : {
+	    'epochs': 50,
+	    'batch_size': 32,
+	    'learning_rate': 0.005,
+	    'optimizer': 'nadam',
+	    'activation': 'selu'
+	},	
+	'CNN_Treasury10y' : {
+	    'epochs': 200,
+	    'batch_size': 128,
+	    'learning_rate': 0.001,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'CNN_Amazon' : {
+	    'epochs': 200,
+	    'batch_size': 64,
+	    'learning_rate': 0.001,
+	    'optimizer': 'nadam',
+	    'activation': 'selu'
+	},	
+	'CNN_Google' : {
+	    'epochs': 200,
+	    'batch_size': 128,
+	    'learning_rate': 0.001,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'CNN_Nvidia' : {
+	    'epochs': 200,
+	    'batch_size': 128,
+	    'learning_rate': 0.001,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'CNN_GRU_Al' : {
+	    'epochs': 100,
+	    'batch_size': 128,
+	    'learning_rate': 0.005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'CNN_GRU_Cu' : {
+	    'epochs': 50,
+	    'batch_size': 64,
+	    'learning_rate': 0.001,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'CNN_GRU_Corn' : {
+	    'epochs': 100,
+	    'batch_size': 128,
+	    'learning_rate': 0.001,
+	    'optimizer': 'adam',
+	    'activation': 'relu'
+	},	
+	'CNN_GRU_EURCHF' : {
+	    'epochs': 50,
+	    'batch_size': 64,
+	    'learning_rate': 0.001,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'CNN_GRU_EURUSD' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'learning_rate': 0.0005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'CNN_GRU_GBPUSD' : {
+	    'epochs': 50,
+	    'batch_size': 64,
+	    'learning_rate': 0.005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'CNN_GRU_Gilt10y' : {
+	    'epochs': 100,
+	    'batch_size': 128,
+	    'learning_rate': 0.005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'CNN_GRU_Bund10y' : {
+	    'epochs': 50,
+	    'batch_size': 64,
+	    'learning_rate': 0.005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'CNN_GRU_Treasury10y' : {
+	    'epochs': 100,
+	    'batch_size': 64,
+	    'learning_rate': 0.0005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'CNN_GRU_Amazon' : {
+	    'epochs': 50,
+	    'batch_size': 32,
+	    'learning_rate': 0.0005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'CNN_GRU_Google' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'learning_rate': 0.0005,
+	    'optimizer': 'rmsprop',
+	    'activation': 'selu'
+	},	
+	'CNN_GRU_Nvidia' : {
+	    'epochs': 50,
+	    'batch_size': 32,
+	    'learning_rate': 0.0005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'CNN_LSTM_Al' : {
+	    'epochs': 50,
+	    'batch_size': 32,
+	    'learning_rate': 0.001,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'CNN_LSTM_Cu' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'learning_rate': 0.001,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'CNN_LSTM_Corn' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'learning_rate': 0.0005,
+	    'optimizer': 'adam',
+	    'activation': 'relu'
+	},	
+	'CNN_LSTM_EURCHF' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'learning_rate': 0.005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'CNN_LSTM_EURUSD' : {
+	    'epochs': 50,
+	    'batch_size': 32,
+	    'learning_rate': 0.001,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'CNN_LSTM_GBPUSD' : {
+	    'epochs': 50,
+	    'batch_size': 64,
+	    'learning_rate': 0.005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'CNN_LSTM_Gilt10y' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'learning_rate': 0.005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'CNN_LSTM_Bund10y' : {
+	    'epochs': 100,
+	    'batch_size': 64,
+	    'learning_rate': 0.0005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'CNN_LSTM_Treasury10y' : {
+	    'epochs': 50,
+	    'batch_size': 32,
+	    'learning_rate': 0.001,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'CNN_LSTM_Amazon' : {
+	    'epochs': 200,
+	    'batch_size': 64,
+	    'learning_rate': 0.005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'CNN_LSTM_Google' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'learning_rate': 0.001,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'CNN_LSTM_Nvidia' : {
+	    'epochs': 200,
+	    'batch_size': 64,
+	    'learning_rate': 0.0005,
+	    'optimizer': 'nadam',
+	    'activation': 'selu'
+	},	
+	'GRU_Al' : {
+	        'epochs': 200,
+	        'batch_size': 32,
+	        'dropout': 0.3,
+	        'input_size': 50,
+	        'hidden_size': 50,
+	        'learning_rate': 0.0005,
+	        'optimizer': 'adam',
+	        'activation': 'tanh',
+	    },	
+	'GRU_Cu' : {
+	        'epochs': 200,
+	        'batch_size': 64,
+	        'dropout': 0.2,
+	        'input_size': 50,
+	        'hidden_size': 50,
+	        'learning_rate': 0.005,
+	        'optimizer': 'adam',
+	        'activation': 'tanh',
+	    },	
+	'GRU_Corn' : {
+	        'epochs': 100,
+	        'batch_size': 64,
+	        'dropout': 0.2,
+	        'input_size': 100,
+	        'hidden_size': 25,
+	        'learning_rate': 0.005,
+	        'optimizer': 'adam',
+	        'activation': 'selu',
+	    },	
+	'GRU_EURCHF' : {
+	        'epochs': 200,
+	        'batch_size': 32,
+	        'dropout': 0.4,
+	        'input_size': 100,
+	        'hidden_size': 25,
+	        'learning_rate': 0.001,
+	        'optimizer': 'Nadam',
+	        'activation': 'selu',
+	    },	
+	'GRU_EURUSD' : {
+	        'epochs': 200,
+	        'batch_size': 32,
+	        'dropout': 0.2,
+	        'input_size': 100,
+	        'hidden_size': 50,
+	        'learning_rate': 0.0005,
+	        'optimizer': 'Nadam',
+	        'activation': 'tanh',
+	    },	
+	'GRU_GBPUSD' : {
+	        'epochs': 50,
+	        'batch_size': 32,
+	        'dropout': 0.2,
+	        'input_size': 100,
+	        'hidden_size': 100,
+	        'learning_rate': 0.005,
+	        'optimizer': 'Nadam',
+	        'activation': 'tanh',
+	    },	
+	'GRU_Gilt10y' : {
+	        'epochs': 200,
+	        'batch_size': 32,
+	        'dropout': 0.2,
+	        'input_size': 100,
+	        'hidden_size': 50,
+	        'learning_rate': 0.0005,
+	        'optimizer': 'Nadam',
+	        'activation': 'tanh',
+	    },	
+	'GRU_Bund10y' : {
+	        'epochs': 200,
+	        'batch_size': 32,
+	        'dropout': 0.4,
+	        'input_size': 50,
+	        'hidden_size': 100,
+	        'learning_rate': 0.001,
+	        'optimizer': 'Nadam',
+	        'activation': 'tanh',
+	    },	
+	'GRU_Treasury10y' : {
+	        'epochs': 200,
+	        'batch_size': 32,
+	        'dropout': 0.4,
+	        'input_size': 100,
+	        'hidden_size': 50,
+	        'learning_rate': 0.001,
+	        'optimizer': 'adam',
+	        'activation': 'selu',
+	    },	
+	'GRU_Amazon' : {
+	        'epochs': 200,
+	        'batch_size': 32,
+	        'dropout': 0.2,
+	        'input_size': 50,
+	        'hidden_size': 50,
+	        'learning_rate': 0.001,
+	        'optimizer': 'adam',
+	        'activation': 'tanh',
+	    },	
+	'GRU_Google' : {
+	        'epochs': 200,
+	        'batch_size': 64,
+	        'dropout': 0.3,
+	        'input_size': 100,
+	        'hidden_size': 100,
+	        'learning_rate': 0.001,
+	        'optimizer': 'adam',
+	        'activation': 'selu',
+	    },	
+	'GRU_Nvidia' : {
+	        'epochs': 100,
+	        'batch_size': 64,
+	        'dropout': 0.2,
+	        'input_size': 100,
+	        'hidden_size': 100,
+	        'learning_rate': 0.001,
+	        'optimizer': 'adam',
+	        'activation': 'selu',
+	    },	
+	'GRU_AE_Al' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'learning_rate': 0.0005,
+	    'dropout': 0.1,
+	    'optimizer': 'adam',
+	    'activation': 'tanh'
+	},	
+	'GRU_AE_Cu' : {
+	    'epochs': 200,
+	    'batch_size': 64,
+	    'learning_rate': 0.001,
+	    'dropout': 0.1,
+	    'optimizer': 'nadam',
+	    'activation': 'tanh'
+	},	
+	'GRU_AE_Corn' : {
+	    'epochs': 100,
+	    'batch_size': 64,
+	    'learning_rate': 0.005,
+	    'dropout': 0.2,
+	    'optimizer': 'rmsprop',
+	    'activation': 'relu'
+	},	
+	'GRU_AE_EURCHF' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'learning_rate': 0.0005,
+	    'dropout': 0.1,
+	    'optimizer': 'rmsprop',
+	    'activation': 'tanh'
+	},	
+	'GRU_AE_EURUSD' : {
+	    'epochs': 50,
+	    'batch_size': 32,
+	    'learning_rate': 0.005,
+	    'dropout': 0.1,
+	    'optimizer': 'nadam',
+	    'activation': 'relu'
+	},	
+	'GRU_AE_GBPUSD' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'learning_rate': 0.005,
+	    'dropout': 0.1,
+	    'optimizer': 'adam',
+	    'activation': 'tanh'
+	},	
+	'GRU_AE_Gilt10y' : {
+	    'epochs': 200,
+	    'batch_size': 64,
+	    'learning_rate': 0.005,
+	    'dropout': 0.1,
+	    'optimizer': 'nadam',
+	    'activation': 'relu'
+	},	
+	'GRU_AE_Bund10y' : {
+	    'epochs': 200,
+	    'batch_size': 128,
+	    'learning_rate': 0.0005,
+	    'dropout': 0.1,
+	    'optimizer': 'adam',
+	    'activation': 'tanh'
+	},	
+	'GRU_AE_Treasury10y' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'learning_rate': 0.0005,
+	    'dropout': 0.1,
+	    'optimizer': 'adam',
+	    'activation': 'tanh'
+	},	
+	'GRU_AE_Amazon' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'learning_rate': 0.0005,
+	    'dropout': 0.2,
+	    'optimizer': 'nadam',
+	    'activation': 'tanh'
+	},	
+	'GRU_AE_Google' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'learning_rate': 0.0005,
+	    'dropout': 0.1,
+	    'optimizer': 'adam',
+	    'activation': 'tanh'
+	},	
+	'GRU_AE_Nvidia' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'learning_rate': 0.001,
+	    'dropout': 0.2,
+	    'optimizer': 'adam',
+	    'activation': 'tanh'
+	},	
+	'GRU_LSTM_Al' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'learning_rate': 0.001,
+	    'dropout': 0.2,
+	    'optimizer': 'rmsprop',
+	    'activation': 'tanh'
+	},	
+	'GRU_LSTM_Cu' : {
+	    'epochs': 200,
+	    'batch_size': 128,
+	    'learning_rate': 0.005,
+	    'dropout': 0.2,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'GRU_LSTM_Corn' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'learning_rate': 0.005,
+	    'dropout': 0.2,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'GRU_LSTM_EURCHF' : {
+	    'epochs': 200,
+	    'batch_size': 64,
+	    'learning_rate': 0.001,
+	    'dropout': 0.1,
+	    'optimizer': 'adam',
+	    'activation': 'tanh'
+	},	
+	'GRU_LSTM_EURUSD' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'learning_rate': 0.0005,
+	    'dropout': 0.1,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'GRU_LSTM_GBPUSD' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'learning_rate': 0.001,
+	    'dropout': 0.2,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'GRU_LSTM_Gilt10y' : {
+	    'epochs': 50,
+	    'batch_size': 32,
+	    'learning_rate': 0.005,
+	    'dropout': 0.1,
+	    'optimizer': 'adam',
+	    'activation': 'tanh'
+	},	
+	'GRU_LSTM_Bund10y' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'learning_rate': 0.001,
+	    'dropout': 0.1,
+	    'optimizer': 'nadam',
+	    'activation': 'selu'
+	},	
+	'GRU_LSTM_Treasury10y' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'learning_rate': 0.001,
+	    'dropout': 0.1,
+	    'optimizer': 'nadam',
+	    'activation': 'selu'
+	},	
+	'GRU_LSTM_Amazon' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'learning_rate': 0.0005,
+	    'dropout': 0.1,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'GRU_LSTM_Google' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'learning_rate': 0.0005,
+	    'dropout': 0.1,
+	    'optimizer': 'nadam',
+	    'activation': 'tanh'
+	},	
+	'GRU_LSTM_Nvidia' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'learning_rate': 0.001,
+	    'dropout': 0.1,
+	    'optimizer': 'nadam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_Al' : {
+	    'epochs': 100,
+	    'batch_size': 64,
+	    'dropout': 0.2,
+	    'input_size': 100,
+	    'hidden_size': 25,
+	    'learning_rate': 0.005,
+	    'optimizer': 'adam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_Cu' : {
+	    'epochs': 200,
+	    'batch_size': 64,
+	    'dropout': 0.2,
+	    'input_size': 100,
+	    'hidden_size': 50,
+	    'learning_rate': 0.005,
+	    'optimizer': 'adam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_Corn' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'dropout': 0.2,
+	    'input_size': 25,
+	    'hidden_size': 50,
+	    'learning_rate': 0.0005,
+	    'optimizer': 'nadam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_EURCHF' : {
+	    'epochs': 50,
+	    'batch_size': 32,
+	    'dropout': 0.2,
+	    'input_size': 100,
+	    'hidden_size': 25,
+	    'learning_rate': 0.005,
+	    'optimizer': 'adam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_EURUSD' : {
+	    'epochs': 100,
+	    'batch_size': 64,
+	    'dropout': 0.2,
+	    'input_size': 50,
+	    'hidden_size': 100,
+	    'learning_rate': 0.005,
+	    'optimizer': 'adam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_GBPUSD' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'dropout': 0.2,
+	    'input_size': 100,
+	    'hidden_size': 100,
+	    'learning_rate': 0.005,
+	    'optimizer': 'nadam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_Gilt10y' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'dropout': 0.2,
+	    'input_size': 50,
+	    'hidden_size': 50,
+	    'learning_rate': 0.0005,
+	    'optimizer': 'rmsprop',
+	    'activation': 'tanh'
+	},	
+	'LSTM_Bund10y' : {
+	    'epochs': 200,
+	    'batch_size': 64,
+	    'dropout': 0.2,
+	    'input_size': 100,
+	    'hidden_size': 25,
+	    'learning_rate': 0.001,
+	    'optimizer': 'rmsprop',
+	    'activation': 'tanh'
+	},	
+	'LSTM_Treasury10y' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'dropout': 0.2,
+	    'input_size': 25,
+	    'hidden_size': 25,
+	    'learning_rate': 0.001,
+	    'optimizer': 'nadam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_Amazon' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'dropout': 0.3,
+	    'input_size': 100,
+	    'hidden_size': 100,
+	    'learning_rate': 0.001,
+	    'optimizer': 'adam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_Google' : {
+	    'epochs': 200,
+	    'batch_size': 128,
+	    'dropout': 0.2,
+	    'input_size': 100,
+	    'hidden_size': 50,
+	    'learning_rate': 0.005,
+	    'optimizer': 'nadam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_Nvidia' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'dropout': 0.2,
+	    'input_size': 100,
+	    'hidden_size': 50,
+	    'learning_rate': 0.005,
+	    'optimizer': 'adam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_AE_Al' : {
+	    'epochs': 200,
+	    'batch_size': 64,
+	    'dropout': 0.1,
+	    'learning_rate': 0.001,
+	    'optimizer': 'nadam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_AE_Cu' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'dropout': 0.2,
+	    'learning_rate': 0.005,
+	    'optimizer': 'adam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_AE_Corn' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'dropout': 0.2,
+	    'learning_rate': 0.005,
+	    'optimizer': 'nadam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_AE_EURCHF' : {
+	    'epochs': 100,
+	    'batch_size': 64,
+	    'dropout': 0.1,
+	    'learning_rate': 0.005,
+	    'optimizer': 'nadam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_AE_EURUSD' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'dropout': 0.1,
+	    'learning_rate': 0.001,
+	    'optimizer': 'adam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_AE_GBPUSD' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'dropout': 0.1,
+	    'learning_rate': 0.0005,
+	    'optimizer': 'nadam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_AE_Gilt10y' : {
+	    'epochs': 200,
+	    'batch_size': 128,
+	    'dropout': 0.1,
+	    'learning_rate': 0.005,
+	    'optimizer': 'nadam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_AE_Bund10y' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'dropout': 0.1,
+	    'learning_rate': 0.001,
+	    'optimizer': 'nadam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_AE_Treasury10y' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'dropout': 0.2,
+	    'learning_rate': 0.0005,
+	    'optimizer': 'adam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_AE_Amazon' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'dropout': 0.1,
+	    'learning_rate': 0.005,
+	    'optimizer': 'adam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_AE_Google' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'dropout': 0.1,
+	    'learning_rate': 0.005,
+	    'optimizer': 'nadam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_AE_Nvidia' : {
+	    'epochs': 50,
+	    'batch_size': 32,
+	    'dropout': 0.2,
+	    'learning_rate': 0.0005,
+	    'optimizer': 'rmsprop',
+	    'activation': 'tanh'
+	},	
+	'LSTM_GRU_Al' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'learning_rate': 0.001,
+	    'dropout': 0.2,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'LSTM_GRU_Cu' : {
+	    'epochs': 200,
+	    'batch_size': 64,
+	    'learning_rate': 0.005,
+	    'dropout': 0.1,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'LSTM_GRU_Corn' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'learning_rate': 0.005,
+	    'dropout': 0.1,
+	    'optimizer': 'nadam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_GRU_EURCHF' : {
+	    'epochs': 50,
+	    'batch_size': 32,
+	    'learning_rate': 0.005,
+	    'dropout': 0.1,
+	    'optimizer': 'adam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_GRU_EURUSD' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'learning_rate': 0.0005,
+	    'dropout': 0.1,
+	    'optimizer': 'nadam',
+	    'activation': 'selu'
+	},	
+	'LSTM_GRU_GBPUSD' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'learning_rate': 0.001,
+	    'dropout': 0.1,
+	    'optimizer': 'nadam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_GRU_Gilt10y' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'learning_rate': 0.005,
+	    'dropout': 0.2,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'LSTM_GRU_Bund10y' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'learning_rate': 0.001,
+	    'dropout': 0.1,
+	    'optimizer': 'rmsprop',
+	    'activation': 'tanh'
+	},	
+	'LSTM_GRU_Treasury10y' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'learning_rate': 0.001,
+	    'dropout': 0.1,
+	    'optimizer': 'adam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_GRU_Amazon' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'learning_rate': 0.001,
+	    'dropout': 0.2,
+	    'optimizer': 'adam',
+	    'activation': 'tanh'
+	},	
+	'LSTM_GRU_Google' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'learning_rate': 0.001,
+	    'dropout': 0.1,
+	    'optimizer': 'nadam',
+	    'activation': 'selu'
+	},	
+	'LSTM_GRU_Nvidia' : {
+	    'epochs': 100,
+	    'batch_size': 64,
+	    'learning_rate': 0.005,
+	    'dropout': 0.1,
+	    'optimizer': 'nadam',
+	    'activation': 'tanh'
+	},	
+	'MLP_Al' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'learning_rate': 0.005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'MLP_Cu' : {
+	    'epochs': 50,
+	    'batch_size': 32,
+	    'learning_rate': 0.005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'MLP_Corn' : {
+	    'epochs': 100,
+	    'batch_size': 64,
+	    'learning_rate': 0.005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'MLP_EURCHF' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'learning_rate': 0.005,
+	    'optimizer': 'adam',
+	    'activation': 'relu'
+	},	
+	'MLP_EURUSD' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'learning_rate': 0.0005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'MLP_GBPUSD' : {
+	    'epochs': 200,
+	    'batch_size': 32,
+	    'learning_rate': 0.0005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'MLP_Gilt10y' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'learning_rate': 0.0005,
+	    'optimizer': 'adam',
+	    'activation': 'relu'
+	},	
+	'MLP_Bund10y' : {
+	    'epochs': 100,
+	    'batch_size': 64,
+	    'learning_rate': 0.001,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'MLP_Treasury10y' : {
+	    'epochs': 100,
+	    'batch_size': 64,
+	    'learning_rate': 0.005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'MLP_Amazon' : {
+	    'epochs': 100,
+	    'batch_size': 64,
+	    'learning_rate': 0.001,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'MLP_Google' : {
+	    'epochs': 100,
+	    'batch_size': 128,
+	    'learning_rate': 0.005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'MLP_Nvidia' : {
+	    'epochs': 100,
+	    'batch_size': 128,
+	    'learning_rate': 0.001,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'MLP_AE_Al' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'learning_rate': 0.0005,
+	    'optimizer': 'adam',
+	    'activation': 'relu'
+	},	
+	'MLP_AE_Cu' : {
+	    'epochs': 100,
+	    'batch_size': 32,
+	    'learning_rate': 0.001,
+	    'optimizer': 'adam',
+	    'activation': 'relu'
+	},	
+	'MLP_AE_Corn' : {
+	    'epochs': 50,
+	    'batch_size': 64,
+	    'learning_rate': 0.0005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'MLP_AE_EURCHF' : {
+	    'epochs': 100,
+	    'batch_size': 64,
+	    'learning_rate': 0.0005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'MLP_AE_EURUSD' : {
+	    'epochs': 100,
+	    'batch_size': 128,
+	    'learning_rate': 0.0005,
+	    'optimizer': 'adam',
+	    'activation': 'relu'
+	},	
+	'MLP_AE_GBPUSD' : {
+	    'epochs': 100,
+	    'batch_size': 64,
+	    'learning_rate': 0.001,
+	    'optimizer': 'adam',
+	    'activation': 'relu'
+	},	
+	'MLP_AE_Gilt10y' : {
+	    'epochs': 50,
+	    'batch_size': 32,
+	    'learning_rate': 0.005,
+	    'optimizer': 'adam',
+	    'activation': 'relu'
+	},	
+	'MLP_AE_Bund10y' : {
+	    'epochs': 50,
+	    'batch_size': 32,
+	    'learning_rate': 0.005,
+	    'optimizer': 'adam',
+	    'activation': 'relu'
+	},	
+	'MLP_AE_Treasury10y' : {
+	    'epochs': 100,
+	    'batch_size': 64,
+	    'learning_rate': 0.0005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'MLP_AE_Amazon' : {
+	    'epochs': 100,
+	    'batch_size': 64,
+	    'learning_rate': 0.0005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'MLP_AE_Google' : {
+	    'epochs': 100,
+	    'batch_size': 128,
+	    'learning_rate': 0.0005,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	},	
+	'MLP_AE_Nvidia' : {
+	    'epochs': 100,
+	    'batch_size': 64,
+	    'learning_rate': 0.001,
+	    'optimizer': 'adam',
+	    'activation': 'selu'
+	}
+}
