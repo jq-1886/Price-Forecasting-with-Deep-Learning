@@ -1,9 +1,5 @@
 <div align="center">
     	<h2>Financial Security Price Prediction with Deep Learning</h2>
-      	<h3>Jack Quested</h3>
-	<h3>CID: 01123431 // Github ID: acse-jaq15</h3>
-	<h3>Applied Computational Science and Engineering MSc</h3>
-	<h3>Imperial College London</h3>
 	<h4>This repository contains the code, notebooks and report created for a comparative study in various Deep Learning architectures and their ability to perform univariate time series forecasting</h4>
 </div>
 
