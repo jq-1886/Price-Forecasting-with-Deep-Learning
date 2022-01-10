@@ -1,5 +1,4 @@
 <div align="center">
-	<h1>ACSE-9 Independent Research Project</h1>
     	<h2>Financial Security Price Prediction with Deep Learning</h2>
       	<h3>Jack Quested</h3>
 	<h3>CID: 01123431 // Github ID: acse-jaq15</h3>
